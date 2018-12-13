@@ -29,26 +29,26 @@ public class CategoriaResource {
 	public List<Categoria> listar() {
 		return categoriaRepository.findAll();
 	}
-	
+
 	@PostMapping
 	public ResponseEntity<Categoria> criar(@RequestBody Categoria categoria, HttpServletResponse response) {
 		Categoria categoriaSalva = categoriaRepository.save(categoria); // Salva no baanco - Spring Data JPA
-		
-		ResponseEntity.notFound();
-		URI uri = ServletUriComponentsBuilder
-					.fromCurrentRequestUri()
-					.path("/{codigo}")
-					.buildAndExpand(categoriaSalva.getCodigo())
-					.toUri();
-		
-		response.setHeader("Location", uri.toASCIIString());
-		
-		return ResponseEntity.created(uri).body(categoriaSalva);
+
+		if (categoriaSalva != null) {
+
+			URI uri = ServletUriComponentsBuilder.fromCurrentRequestUri().path("/{codigo}")
+					.buildAndExpand(categoriaSalva.getCodigo()).toUri();
+
+			response.setHeader("Location", uri.toASCIIString());
+
+			return ResponseEntity.created(uri).body(categoriaSalva);
+		} else {
+			return ResponseEntity.notFound();
+		}
 	}
-	
+
 	@GetMapping("/{codigo}")
-	public ResponseEntity<Categoria> buscarPeloCodigo(@PathVariable Long codigo) {
-		Categoria categoria = categoriaRepository.findOne(codigo);
-		return categoria != null ? ResponseEntity.ok(categoria) : ResponseEntity.notFound().build();
+	public Categoria buscarPeloCodigo(@PathVariable Long codigo) {
+		return categoriaRepository.findOne(codigo);
 	}
 }
