@@ -34,6 +34,7 @@ public class CategoriaResource {
 	public ResponseEntity<Categoria> criar(@RequestBody Categoria categoria, HttpServletResponse response) {
 		Categoria categoriaSalva = categoriaRepository.save(categoria); // Salva no baanco - Spring Data JPA
 		
+		ResponseEntity.notFound();
 		URI uri = ServletUriComponentsBuilder
 					.fromCurrentRequestUri()
 					.path("/{codigo}")
