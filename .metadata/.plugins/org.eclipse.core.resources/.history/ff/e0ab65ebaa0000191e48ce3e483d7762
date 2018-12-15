@@ -1,0 +1,45 @@
+package com.algaworks.algamoney.api.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+import javax.validation.constraints.NotNull;
+
+@Entity
+@Table(nome="pessoa")
+public class Pessoa {
+	@NotNull
+	private String nome;
+	@NotNull
+	private Boolean ativo;
+	private Endereco endereco;
+	
+	public Pessoa(String nome, Boolean ativo, Endereco endereco) {
+		this.nome = nome;
+		this.ativo = ativo;
+		this.endereco = endereco;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public Boolean getAtivo() {
+		return ativo;
+	}
+
+	public void setAtivo(Boolean ativo) {
+		this.ativo = ativo;
+	}
+
+	public Endereco getEndereco() {
+		return endereco;
+	}
+
+	public void setEndereco(Endereco endereco) {
+		this.endereco = endereco;
+	}
+}
