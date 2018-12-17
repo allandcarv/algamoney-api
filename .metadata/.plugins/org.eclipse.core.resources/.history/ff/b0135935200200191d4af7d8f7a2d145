@@ -24,7 +24,6 @@ import com.algaworks.algamoney.api.event.RecursoCriadoEvent;
 import com.algaworks.algamoney.api.exceptionhandler.AlgamoneyExceptionHadler.Erro;
 import com.algaworks.algamoney.api.model.Lancamento;
 import com.algaworks.algamoney.api.repository.LancamentoRepository;
-import com.algaworks.algamoney.api.service.LancamentoService;
 import com.algaworks.algamoney.api.service.exception.PessoaInexistenteOuInativaException;
 
 @RestController
@@ -33,9 +32,6 @@ public class LancamentoResource {
 
 	@Autowired
 	private LancamentoRepository lancamentoRepository;
-	
-	@Autowired 
-	private LancamentoService lancamentoService;
 	
 	@Autowired
 	private ApplicationEventPublisher publisher;
@@ -57,7 +53,7 @@ public class LancamentoResource {
 	
 	@PostMapping
 	public ResponseEntity<Lancamento> cadastrarCategoria(@Valid @RequestBody Lancamento lancamento, HttpServletResponse response) {
-		Lancamento lancamentoSalvo = lancamentoService.salvar(lancamento);
+		Lancamento lancamentoSalvo = lancamentoRepository.save(lancamento);
 		
 		publisher.publishEvent(new RecursoCriadoEvent(this, response, lancamentoSalvo.getCodigo()));
 		

@@ -1087,3 +1087,15 @@ Caused by: java.lang.NullPointerException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-17 14:20:50.951
 !MESSAGE executing callback sts4.classpath.GfdMqvxy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-17 16:47:17.519
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.GfdMqvxy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-17 16:47:17.529
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.GfdMqvxy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-17 16:47:17.534
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-17 16:47:17.537
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.GfdMqvxy => OK
