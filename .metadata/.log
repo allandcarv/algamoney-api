@@ -1057,3 +1057,33 @@ Caused by: java.lang.NullPointerException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-17 12:47:09.613
 !MESSAGE executing callback sts4.classpath.GfdMqvxy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-17 14:20:48.346
+!MESSAGE Preparing classpath changed notification algamoney-api
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-17 14:20:48.355
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-17 14:20:48.369
+!MESSAGE classpath=95 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-17 14:20:48.375
+!MESSAGE executing callback sts4.classpath.GfdMqvxy algamoney-api false 95
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-17 14:20:48.409
+!MESSAGE executing callback sts4.classpath.GfdMqvxy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-17 14:20:50.911
+!MESSAGE Preparing classpath changed notification algamoney-api
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-17 14:20:50.927
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-17 14:20:50.935
+!MESSAGE classpath=95 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-17 14:20:50.941
+!MESSAGE executing callback sts4.classpath.GfdMqvxy algamoney-api false 95
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-17 14:20:50.951
+!MESSAGE executing callback sts4.classpath.GfdMqvxy SUCCESS [done]
