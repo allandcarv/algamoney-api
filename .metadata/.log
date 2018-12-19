@@ -1366,3 +1366,6 @@ Caused by: java.lang.NullPointerException
 
 !ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2018-12-18 16:01:11.991
 !MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.0.12.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2018-12-19 10:55:09.111
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.0.12.Final
