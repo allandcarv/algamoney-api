@@ -3532,3 +3532,18 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2019-01-03 14:56:18.908
 !MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.0.12.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2019-01-03 15:00:45.839
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.0.12.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2019-01-03 15:00:57.411
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.0.12.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2019-01-03 15:03:48.844
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.0.12.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2019-01-03 15:06:04.506
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.0.12.Final
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-01-03 15:15:53.836
+!MESSAGE No repository found at file:/D:/Allan/Angular%20e%20Spring/Spring/spring-tool-suite-4-4.0.0.RELEASE-e4.9.0-win32.win32.x86_64/sts-4.0.0.RELEASE/configuration/org.eclipse.osgi/192/data/listener_1925729951/.
