@@ -1,0 +1,10 @@
+package com.algaworks.algamoney.api.security.util;
+
+public class GeradorSenha {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
