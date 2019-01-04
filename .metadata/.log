@@ -4509,3 +4509,15 @@ java.lang.InterruptedException
 
 !ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2019-01-04 00:00:07.871
 !MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.0.12.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-04 00:04:00.075
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NCSpZptT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-04 00:04:00.083
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.NCSpZptT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-04 00:04:00.085
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-04 00:04:00.095
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NCSpZptT => OK
