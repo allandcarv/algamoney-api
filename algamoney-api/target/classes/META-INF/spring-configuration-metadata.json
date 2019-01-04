@@ -23,11 +23,6 @@
       "sourceType": "com.algaworks.algamoney.api.config.property.AlgamoneyApiProperty$Seguranca",
       "name": "algamoney.seguranca.enable-https",
       "type": "java.lang.Boolean"
-    },
-    {
-      "sourceType": "com.algaworks.algamoney.api.config.property.AlgamoneyApiProperty$Seguranca",
-      "name": "algamoney.seguranca.enable-https",
-      "type": "java.lang.Boolean"
     }
   ]
 }
