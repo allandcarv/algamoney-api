@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="C:\Users\Allan Carvalho\.m2\repository\org\hibernate\hibernate-jpamodelgen\5.0.12.Final" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="C:\Users\allan\.m2\repository\org\hibernate\hibernate-jpamodelgen\5.0.12.Final" key="org.eclipse.jdt.ui.lastextjar"/>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
 		<item value="false" key="updateQualifiedNames"/>
 		<item value="*" key="patterns"/>
